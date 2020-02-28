@@ -2,8 +2,8 @@
 用于计算OKEX永续合约资金费率
 
 ## 使用方法
-1. 修改application-sample.yml配置文件并将其重命名为application.yml
-2. 访问localhost:8079/list90 查看所有合约近一个月的资金费用
+1. 修改 application-sample.yml 配置文件并将其重命名为 application.yml
+2. 访问 localhost:8079/list90 查看所有合约近一个月的资金费用
 
 ## 返回示例, 从大到小排序
 ```
