@@ -1,4 +1,4 @@
-# Funding rate calculator
+# OKEX Funding Rate Calculator
 用于计算OKEX永续合约资金费率
 
 ## 使用方法
