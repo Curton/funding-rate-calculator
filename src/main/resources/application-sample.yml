@@ -1,0 +1,6 @@
+#please rename this file to "application.yml"
+endpoint:
+apiKey:
+secretKey:
+passphrase:
+print: true
