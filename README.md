@@ -4,6 +4,7 @@
 ## 使用方法
 1. 修改 application-sample.yml 配置文件并将其重命名为 application.yml
 2. 访问 localhost:8079/list90 查看所有合约近一个月的资金费用
+3. list 后面的数字表示结算周期, 每个周期8小时, 因API限制, 最多查看100个周期数据
 
 ## 返回示例, 从大到小排序
 ```
