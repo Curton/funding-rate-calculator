@@ -5,6 +5,7 @@ import com.liukedun.okex.fundingratecalculator.model.FundingRateSum;
 import com.okcoin.commons.okex.open.api.bean.futures.result.ServerTime;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -31,13 +32,8 @@ public class Controller {
         return fundingRateService.getContractInformationListType();
     }
 
-    @GetMapping("/list100")
-    public List<FundingRateSum> d() {
-        return fundingRateService.getFundingRateSumList();
-    }
-
-    @GetMapping("/list90")
-    public List<FundingRateSum> e() {
-        return fundingRateService.getFundingRateSumList(90);
+    @GetMapping("/list{limit}")
+    public List<FundingRateSum> f(@PathVariable int limit) {
+        return fundingRateService.getFundingRateSumList(limit);
     }
 }
